@@ -1,0 +1,117 @@
+Python
+
+Python is a high-level programming language widely used for automation, artificial intelligence, web development, scripting, and data analysis. Python emphasizes readability and rapid development through its simple syntax and large ecosystem of libraries.
+
+
+
+JSON
+
+JSON stands for JavaScript Object Notation. It is a lightweight format for storing and exchanging structured data. APIs commonly send and receive information using JSON because it is both human-readable and machine-readable.
+
+
+
+REST API
+
+A REST API allows software systems to communicate over the internet using HTTP methods such as GET, POST, PUT, and DELETE. Clients send requests to servers, and servers return responses, often in JSON format.
+
+
+
+HTTP Request
+
+An HTTP request is a message sent from a client to a server asking for information or requesting an action. Every request contains a method, URL, headers, and sometimes a request body.
+
+
+
+HTTP Response
+
+An HTTP response is the server's reply to an HTTP request. It contains a status code, headers, and usually a body containing HTML, JSON, images, or other resources.
+
+
+
+Pandas
+
+Pandas is a Python library designed for working with structured data. It provides DataFrames and Series, making it easy to analyze, clean, filter, sort, and summarize tabular datasets.
+
+
+
+BeautifulSoup
+
+BeautifulSoup is a Python library for parsing HTML and XML documents. It allows developers to extract information from web pages by navigating tags, attributes, and the document structure.
+
+
+
+Git
+
+Git is a distributed version control system. It records snapshots of a project's history through commits, allowing developers to track changes, restore previous versions, and collaborate safely.
+
+
+
+GitHub
+
+GitHub is a cloud platform that hosts Git repositories. It enables collaboration, version sharing, pull requests, issue tracking, and project management.
+
+
+
+openpyxl
+
+openpyxl is a Python library used for reading, writing, and modifying Microsoft Excel (.xlsx) files. It supports worksheets, formulas, formatting, and workbook management.
+
+
+
+Selenium
+
+Selenium is a browser automation framework that controls real web browsers. It locates webpage elements using locators such as CSS selectors, XPath, IDs, and names before performing actions like clicking, typing, and submitting forms.
+
+
+
+Embedding
+
+An embedding is a numerical vector representation of text. Similar pieces of text produce vectors that are close together in vector space, allowing semantic similarity searches.
+
+
+
+Cosine Similarity
+
+Cosine similarity measures how similar two vectors are by comparing the angle between them. It is commonly used to compare embeddings in semantic search systems.
+
+
+
+Vector Database
+
+A vector database stores embeddings and performs efficient similarity searches over millions of vectors. Examples include Pinecone, ChromaDB, Weaviate, and Milvus.
+
+
+
+Retrieval
+
+Retrieval is the process of finding the most relevant pieces of information for a user's query before generating an answer.
+
+
+
+Large Language Model (LLM)
+
+A Large Language Model is an AI model trained on enormous amounts of text to understand and generate natural language. Examples include GPT, Claude, Gemini, Llama, and Mistral.
+
+
+
+Prompt
+
+A prompt is the instruction given to an LLM describing the task it should perform. Well-designed prompts significantly improve answer quality.
+
+
+
+Context
+
+Context is the information supplied to an LLM along with the user's question. Good context allows the model to answer accurately using external knowledge instead of relying only on its internal training.
+
+
+
+RAG (Retrieval-Augmented Generation)
+
+RAG combines retrieval with a Large Language Model. First, relevant information is retrieved from external documents using embeddings. Then those documents are supplied to the LLM as context so it can generate accurate answers grounded in the retrieved information.
+
+
+
+n8n
+
+n8n is an automation platform that connects APIs, databases, AI models, and online services into workflows. It allows developers to automate repetitive tasks visually using nodes and workflows.
